@@ -1,0 +1,9 @@
+<div class="table">
+  <ul>
+    <li *ngFor="let article of articles">
+      <nav [routerLink]="['/article-display']" [queryParams]="{id: [article.articleId]}">
+        <app-article-thumbprint [articleHeader] ="article"></app-article-thumbprint>
+      </nav>
+    </li>
+  </ul>
+</div>
