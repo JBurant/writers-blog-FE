@@ -1,0 +1,63 @@
+$background-color: mintcream;
+$secondary-background-color: #004A4F;
+$font-color: gold;
+$opacity-level: 98%;
+
+html {
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: $background-color;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+ul
+{
+    list-style-type: none;
+    padding-left: 0pt;
+}
+
+li
+{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+header
+{
+    margin: 0px;
+    padding-top: 20px;
+    width:100%;
+    position:fixed;
+    top: 0;
+    text-align: center;
+    background-color: $secondary-background-color;
+    color: $font-color;
+    opacity: $opacity-level;
+}
+
+footer
+{
+    text-align: center;
+    position: fixed;
+    margin-top: 10px;
+    padding:10px;
+    bottom: 0;
+    width: 100%;
+    background-color: $secondary-background-color;
+    color: $font-color;
+    opacity: $opacity-level;
+}
+
+button
+{
+    cursor: pointer;
+}

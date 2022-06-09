@@ -1,0 +1,15 @@
+<div class="article-display">
+    <h2 class="article-display-name">{{article.name}}</h2>
+    <div class="article-display-tags">{{getTags()}}</div >
+    <div class="article-display-time">{{getTimeModified()}}</div >
+    <div class="article-display-content">{{article.content}}</div >
+
+    <button [routerLink]="['/homepage']" mat-icon-button class="article-back">
+        <img src = "assets/back_icon.png" class="back-button">
+        <div class="article-back-text">Zpět</div>
+    </button>
+
+    <p class="article-newsletter">
+        Líbila se Vám povídka? Přihlaste se do našeho <a href>newsletteru</a> a nezmeškejte tu příští.
+    </p>
+</div>
