@@ -2,7 +2,7 @@ $foreword-margin: 10px;
 
 .homepage-foreword
 {
-    width: 60%;
+    max-width:1024px;
     font-size:medium;
     margin-left:auto;
     margin-right: auto;
@@ -12,5 +12,5 @@ $foreword-margin: 10px;
 {
     display: table;
     margin: auto;
-    width: 60%;
+    max-width:800px;
 }
