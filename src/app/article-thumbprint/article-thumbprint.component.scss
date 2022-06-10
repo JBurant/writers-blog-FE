@@ -34,4 +34,5 @@ $border-color: #006D75;
     overflow: hidden;
     text-overflow: ellipsis;
     height: $textbox-height;
+    white-space: pre-wrap;
  }
