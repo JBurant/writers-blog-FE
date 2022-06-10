@@ -30,6 +30,7 @@ jobs:
           app_location: "/" # App source code path
           api_location: "src" # Api source code path - optional
           output_location: "dist/writers-blog" # Built app content directory - optional
+          app_build_command: "npm run build-prod" # Make sure to build for production
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
