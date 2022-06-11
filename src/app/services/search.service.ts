@@ -13,7 +13,7 @@ export class SearchService {
 
   search (queryString: string): Observable<[ArticleHeader]>
   {
-    let url = environment.apiUrl + "/search";
+    let url = environment.apiUrl + "/articles/search";
 
     if(!queryString || queryString.length === 0 )
     {
