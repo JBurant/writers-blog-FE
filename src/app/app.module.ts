@@ -17,7 +17,7 @@ import { ArticleThumbprintComponent } from './article-thumbprint/article-thumbpr
     ArticleThumbprintComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     HttpClientModule
   ],

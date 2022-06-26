@@ -29,8 +29,8 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/" # App source code path
           api_location: "src" # Api source code path - optional
-          output_location: "dist/writers-blog" # Built app content directory - optional
-          app_build_command: "npm run build-prod" # Make sure to build for production
+          output_location: "dist/writers-blog/browser" # Built app content directory - optional
+          app_build_command: "npm run build:ssr --prod" # Make sure to build for production
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
