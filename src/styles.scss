@@ -1,10 +1,4 @@
 $background-color: MintCream;
-$secondary-background-color: #004A4F;
-$font-color: gold;
-$opacity-level: 98%;
-$border-radius: 30px;
-$page-width:1024px;
-$header-footer-vertical-padding: 20px;
 
 html {
     margin:0;
@@ -33,34 +27,6 @@ li
     width: 100%;
     margin-bottom: 15px;
 }
-
-header
-{
-    text-align: center;
-    background-color: $secondary-background-color;
-    color: $font-color;
-    opacity: $opacity-level;
-    max-width: $page-width;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: $border-radius;
-}
-
-footer
-{
-    font-weight: bold;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
-    max-width: $page-width;
-    background-color: $secondary-background-color;
-    color: $font-color;
-    opacity: $opacity-level;
-    border-radius: $border-radius;
-    padding-top: $header-footer-vertical-padding;
-    padding-bottom: $header-footer-vertical-padding;
- }
 
 button
 {
